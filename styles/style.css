@@ -79,6 +79,8 @@ blockquote {
 .header_address {
     justify-self: end;
     max-width: 240px;
+    line-height: 1.4em;
+    margin-right: 36px;
 }
 
 .cover {
@@ -105,7 +107,6 @@ blockquote {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    line-height: 1.0;
     color: rgba(255, 255, 255, 1);
     padding: 165px 50px 106px 50px;
 }
@@ -113,10 +114,14 @@ blockquote {
 .aligned-text {
     display: block;
     margin-top: 20px;
+    line-height: 0.8;
+    padding-right: 2px;
 }
 
 .aligned-text_center {
     text-align: center;
+    line-height: 1.4;
+    padding-left: 32px;
 }
 
 .aligned-text_right {
@@ -146,17 +151,20 @@ blockquote {
     color: rgba(255, 255, 255, 1);
     word-spacing: 1.1rem;
     font-weight: 400;
+    line-height: 1.5em;
+    padding-top: 26px;
 }
 
-.button {
+.bet-button {
     border: 1px solid rgba(255, 255, 255, 1);
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
     font-weight: 500;
     background-color: transparent;
     cursor: pointer;
-    padding: 0;
     padding: 12px 32px 11px 31px;
+    margin-top: 20px;
+    margin-right: 6px;
 }
 
 .lots {
@@ -184,7 +192,7 @@ blockquote {
 }
 
 .lots_card-list-item {
-    min-width: 596px;
+    min-height: 596px;
     width: 334px;
     display: flex;
     flex-direction: column;
@@ -267,7 +275,7 @@ blockquote {
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     text-transform: uppercase;
-    padding: 100px 390px 0 0;
+    padding: 100px 390px 100px 8px;
 }
 
 .about_text {
@@ -276,8 +284,8 @@ blockquote {
     font-size: 20px;
     gap: 24px;
     font-weight: 400;
-    padding-left: 16px;
-    padding-right: 4px;
+    padding-left: 22px;
+    padding-right: 6px;
     font-style: normal;
     color: rgba(0, 0, 0, 1);
     line-height: 1.2;
@@ -314,12 +322,14 @@ blockquote {
 .footer_address {
     justify-self: start;
     font-style: normal;
+    line-height: 1.4em;
 }
 
 .footer_menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 1.4em;
 }
 
 .footer_links-list {
